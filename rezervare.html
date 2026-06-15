@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rezervare - La Fântâna</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Cormorant+Garamond:wght@300;400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<nav>
+<a class="nav-logo" href="index.html">RESTAURANTUL <span>La Fântâna</span></a>
+
+<ul class="nav-links">
+<li><a href="../index.html">HOME</a></li>
+<li><a href="menu.html">MENIU</a></li>
+<li><a href="rezervare.html">REZERVARE</a></li>
+<li><a href="galerie.html">GALERIE</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+<li><a href="rezervare.html" class="nav-btn">REZERVĂ O MASĂ</a></li>
+</ul>
+</nav>
+
+<div class="rezervare-page">
+
+
+
+<div id="page-rezervare" class="page">
+  <div class="rezervare-page">
+    <div class="menu-header">
+      <div class="section-title">Rezervă o masă</div>
+      <div class="ornament">✦ ❧ ✦</div>
+    </div>
+    <div class="rezervare-form-wrap">
+      <div class="form-group">
+        <label for="r-nume">Nume</label>
+        <input type="text" id="r-nume" placeholder="Numele dumneavoastră complet">
+      </div>
+      <div class="form-group">
+        <label for="r-tel">Telefon</label>
+        <input type="tel" id="r-tel" placeholder="+373 000-000-000">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="r-data">Data</label>
+          <input type="date" id="r-data">
+        </div>
+        <div class="form-group">
+          <label for="r-ora">Ora</label>
+          <input type="time" id="r-ora">
+        </div>
+        <div class="form-group">
+          <label for="r-pers">Persoane</label>
+          <select id="r-pers">
+            <option>1</option><option>2</option><option>3</option>
+            <option selected>4</option><option>5</option><option>6</option>
+            <option>7</option><option>8+</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="r-msg">Mențiuni Opționale</label>
+        <textarea id="r-msg" placeholder="Cerințe speciale, alergii, ocazii speciale..."></textarea>
+      </div>
+      <button class="btn-submit" type="submit">TRIMITE REZERVAREA</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-col"><span class="label">Adresă</span><span>Cahul, Moldova</span></div>
+    <div class="footer-col"><span class="label">Telefon</span><span>+373 69-097-722</span></div>
+    <div class="footer-col"><span class="label">Email</span><span>contact@lafantana.md</span></div>
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>
